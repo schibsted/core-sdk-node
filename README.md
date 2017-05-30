@@ -1,10 +1,12 @@
-[![Build Status](https://travis-ci.org/userpixel/schibsted-core-sdk-node.svg?branch=master)](https://travis-ci.org/userpixel/schibsted-core-sdk-node)
-[![GitHub issues](https://img.shields.io/github/issues/userpixel/schibsted-core-sdk-node.svg)](https://github.com/userpixel/schibsted-core-sdk-node/issues)
+[![Build Status](https://travis-ci.org/schibsted/schibsted-core-sdk-node.svg?branch=master)](https://travis-ci.org/schibsted/schibsted-core-sdk-node)
+[![GitHub issues](https://img.shields.io/github/issues/schibsted/schibsted-core-sdk-node.svg)](https://github.com/schibsted/schibsted-core-sdk-node/issues)
 [![Version](https://img.shields.io/npm/v/schibsted-core-sdk-node.svg?style=flat-square)](http://npm.im/schibsted-core-sdk-node)
 [![Downloads](https://img.shields.io/npm/dm/schibsted-core-sdk-node.svg?style=flat-square)](http://npm-stat.com/charts.html?package=schibsted-core-sdk-node&from=2017-01-01)
 [![MIT License](https://img.shields.io/npm/l/callifexists.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 # Introduction
+
+![Schibsted Common Components Logo](cc-logo.png)
 
 **NOTE: this is very alpha at the moment and hasn't been tested thoroguly. If you use it and find it
 interesting, please discuss in [#spt-identity-web-sdk](https://sch-chat.slack.com/messages/G4QM7A2PQ/)
