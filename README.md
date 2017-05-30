@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/schibsted/schibsted-core-sdk-node.svg?branch=master)](https://travis-ci.org/schibsted/schibsted-core-sdk-node)
-[![GitHub issues](https://img.shields.io/github/issues/schibsted/schibsted-core-sdk-node.svg)](https://github.com/schibsted/schibsted-core-sdk-node/issues)
+[![Build Status](https://travis-ci.org/schibsted/core-sdk-node.svg?branch=master)](https://travis-ci.org/schibsted/core-sdk-node)
+[![GitHub issues](https://img.shields.io/github/issues/schibsted/core-sdk-node.svg)](https://github.com/schibsted/core-sdk-node/issues)
 [![Version](https://img.shields.io/npm/v/schibsted-core-sdk-node.svg?style=flat-square)](http://npm.im/schibsted-core-sdk-node)
 [![Downloads](https://img.shields.io/npm/dm/schibsted-core-sdk-node.svg?style=flat-square)](http://npm-stat.com/charts.html?package=schibsted-core-sdk-node&from=2017-01-01)
-[![MIT License](https://img.shields.io/npm/l/callifexists.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![MIT License](https://img.shields.io/npm/l/schibsted-core-sdk-node.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 # Introduction
 
