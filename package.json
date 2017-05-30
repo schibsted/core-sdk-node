@@ -1,36 +1,41 @@
 {
-	"name": "schibsted-core-sdk-node",
-	"version": "0.0.4-alpha",
-	"description": "Core Node SDK for Schibsted Identity & Payment",
-	"keywords": [ "schibsted", "identity", "payment", "oauth" ],
-	"license": "MIT",
-	"main": "index.js",
-	"scripts": {
-		"lint": "eslint .",
-		"test": "mocha --recursive test",
-		"docs": "eslint . && rm -rf docs && jsdoc -c ./jsdoc.json"
-	},
-	"dependencies": {
-		"base-64": "^0.1.0",
-		"debug": "^2.6.3"
-	},
-	"devDependencies": {
-		"chai": "^4.0.0",
-		"eslint": "^3.19.0",
-		"eslint-config-schibsted": "^3.1.0",
-		"eslint-plugin-import": "^2.2.0",
-		"jsdoc": "^3.4.3",
-		"mocha": "^3.3.0",
-		"node-fetch": "^1.6.3"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/schibsted/core-sdk-node"
-	},
-	"bugs": {
-		"url": "https://github.com/schibsted/core-sdk-node/issues"
-	},
-	"engines": {
-		"node": ">=6.4"
-	}
+  "name": "schibsted-core-sdk-node",
+  "version": "0.0.4",
+  "description": "Core Node SDK for Schibsted Identity & Payment",
+  "keywords": [
+    "schibsted",
+    "identity",
+    "payment",
+    "oauth"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --recursive test",
+    "docs": "eslint . && rm -rf docs && jsdoc -c ./jsdoc.json"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "debug": "^2.6.3"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-schibsted": "^3.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "jsdoc": "^3.4.3",
+    "mocha": "^3.3.0",
+    "node-fetch": "^1.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schibsted/core-sdk-node"
+  },
+  "bugs": {
+    "url": "https://github.com/schibsted/core-sdk-node/issues"
+  },
+  "engines": {
+    "node": ">=6.4"
+  }
 }
