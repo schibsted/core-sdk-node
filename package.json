@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "test": "mocha --recursive test",
     "docs": "eslint . && rm -rf docs && jsdoc -c ./jsdoc.json",
-    "preversion": "npm run lint && npm test && npm run docs",
+    "preversion": "npm run lint && npm test && npm run docs && travis lint",
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
