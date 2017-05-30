@@ -19,9 +19,9 @@ It is comprised of a Node SDK and a browser SDK.
 Due to its alpha stage, the package is not on public NPM. You have a few ways to use it:
 
 1. Put `"identity-web-sdk-node": "git+ssh://git@github.schibsted.io/spt-identity/identity-web-sdk-node.git",`
-in your `package.json:dependencies`, install it (`yarn install`) and `require('identity-web-sdk-node');`
-2. Fork it, install deps (`yarn install`) and directly and `require('path/to/identity-web-sdk-node');`
-3. Fork it, install deps (`yarn install`) then link it: in the root of this repo do `npm link` and
+in your `package.json:dependencies`, install it (`npm install`) and `require('identity-web-sdk-node');`
+2. Fork it, install deps (`npm install`) and directly and `require('path/to/identity-web-sdk-node');`
+3. Fork it, install deps (`npm install`) then link it: in the root of this repo do `npm link` and
    in the root of your repo do `npm link identity-web-sdk-node`. 
 
 Most SPiD APIs need some sort of authentication. There are 3 classes for that. The reason for using
@@ -65,4 +65,4 @@ sdk.agreement.accept(spid, api, userId);
 # Documentation
 
 You can see [the HTML documentation](https://pages.github.schibsted.io/spt-identity/identity-web-sdk-node/)
-in the `/doc` folder (generate it using `yarn run docs`).
+in the `/doc` folder (generate it using `npm run docs`).
