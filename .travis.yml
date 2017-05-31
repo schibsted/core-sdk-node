@@ -3,6 +3,7 @@ sudo: false
 node_js:
 - '6'
 - '7'
+- '8'
 cache:
   directories:
   - node_modules
@@ -20,4 +21,4 @@ deploy:
     repo: schibsted/core-sdk-node
     branch: master
     # only publish from one row of the build matrix
-    node: '7'
+    node: '8'
