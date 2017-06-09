@@ -1,6 +1,6 @@
 {
   "name": "schibsted-core-sdk-node",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Core Node SDK for Schibsted Identity & Payment",
   "keywords": [
     "schibsted",
