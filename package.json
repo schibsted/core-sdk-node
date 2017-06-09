@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "base-64": "^0.1.0",
-    "debug": "^2.6.3"
+    "debug": "^2.6.3",
+    "node-fetch": "^1.6.3"
   },
   "devDependencies": {
     "chai": "^4.0.0",
@@ -28,7 +29,6 @@
     "eslint-plugin-import": "^2.2.0",
     "jsdoc": "^3.4.3",
     "mocha": "^3.3.0",
-    "node-fetch": "^1.6.3"
   },
   "repository": {
     "type": "git",
