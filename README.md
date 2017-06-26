@@ -11,8 +11,26 @@
 
 # Introduction
 
-This is a SDK for accessing SPiD APIs. It takes care of making REST calls and returns Promises
-as a result.
+This is a SDK for accessing SPiD APIs using Node. It makes REST calls with proper authentication mechanism and returns Promises as a result.
+
+This is the base for the [identity](https://github.com/schibsted/identity-sdk)
+and [payment](https://github.com/schibsted/payment-sdk)
+SDKs which make it even more fluent to work with SPiD APIs in Node. 
+
+```
++----------------------------+--------------------------+
+|   schibsted-identity-sdk   |  schibsted-payment-sdk   |
++----------------------------+--------------------------+
+|                schibsted-core-sdk-node                |
++-------------------------------------------------------+
+```
+
+There is also a [schibsted-browser-sdk](https://github.com/schibsted/browser-sdk)
+that is designed to run in the browser for the most common tasks like authentication, etc.
+The `schibsted-identity-sdk` and `schibsted-payment-sdk` are not node-specific and despite using
+commonJS, can be used in the browser if their tokens are handled properly.
+Essentially the `schibsted-core-sdk-node` is the node-specific layer that the other two SDKs are build on top of. In the future there may be a `schibsted-core-sdk-browser` that serves the same purpose for the browser. That may enable the identity and payment SDKs to run in the browser.
+
 
 ## Install
 
@@ -42,7 +60,9 @@ The endpoints are documented in [techdocs](http://techdocs.spid.no/).
 
 # Documentation
 
-You generate documentation locally running `npm run docs`.
+You can generate the documentation locally by clonning the repo and 
+running `npm i && npm run docs` in its root.
+In the near future the documentation will be served online.
 
 # Support
 
