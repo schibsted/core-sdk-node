@@ -87,4 +87,4 @@ You are welcome to [create an issue](https://github.com/schibsted/core-sdk-node/
 
 # License
 
-[MIT](./LICENCE)
+[MIT](./LICENCE.md)
