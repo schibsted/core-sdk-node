@@ -16,17 +16,25 @@ This is a SDK for accessing SPiD APIs using Node. It makes REST calls with prope
 This is the base for the [identity](https://github.com/schibsted/identity-sdk)
 and [payment](https://github.com/schibsted/payment-sdk)
 SDKs which make it even more fluent to work with SPiD APIs in Node. 
-
-```
-+----------------------------+--------------------------+
-|   schibsted-identity-sdk   |  schibsted-payment-sdk   |
-+----------------------------+--------------------------+
-|                schibsted-core-sdk-node                |
-+-------------------------------------------------------+
-```
-
 There is also a [schibsted-browser-sdk](https://github.com/schibsted/browser-sdk)
-that is designed to run in the browser for the most common tasks like authentication, etc.
+which is designed to run in the browser for the most common tasks like authentication, etc.
+
+```
++----------------------------+--------------------------+       +----------------------------+
+|   schibsted-identity-sdk   |  schibsted-payment-sdk   |       |    schibsted-browser-sdk   |
++----------------------------+--------------------------+       +----------------------------+
+|                schibsted-core-sdk-node                |                       ^
++-------------------------------------------------------+                       |
+                             ^                                                  |
+                             |                                                  |
+                             |                                                  |
+                             v                                                  v
++--------------------------------------------------------------------------------------------+
+|                         Schibsted Identity and Payment (SPiD)                              |
++--------------------------------------------------------------------------------------------+
+
+```
+
 The `schibsted-identity-sdk` and `schibsted-payment-sdk` are not node-specific and despite using
 commonJS, can be used in the browser if their tokens are handled properly.
 Essentially the `schibsted-core-sdk-node` is the node-specific layer that the other two SDKs are build on top of. In the future there may be a `schibsted-core-sdk-browser` that serves the same purpose for the browser. That may enable the identity and payment SDKs to run in the browser.
@@ -57,6 +65,13 @@ spid.post('path/to/endpoint', objectContainingParamsAndTheirValues)
 ```
 
 The endpoints are documented in [techdocs](http://techdocs.spid.no/).
+
+# Debugging
+
+This library uses the popular [debug](https://www.npmjs.com/package/debug)
+package with a switch equal to the package name. In order to see debugging information about
+requests being made to the server, use prefix your command with `NODE_DEBUG=schibsted-core-sdk-node` or
+set that environment variable directly in your OS or terminal emulator
 
 # Documentation
 
