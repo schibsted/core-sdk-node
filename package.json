@@ -38,6 +38,7 @@
     "url": "https://github.com/schibsted/core-sdk-node/issues"
   },
   "engines": {
-    "node": ">=6.4"
+    "node": ">=8",
+    "npm": ">=5"
   }
 }
