@@ -16,5 +16,6 @@ rules:
         requireReturnDescription: false
     max-nested-callbacks:
       - error
-      - 4
+      - 5
     camelcase: off
+    padded-blocks: off

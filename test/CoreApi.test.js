@@ -1,6 +1,6 @@
 'use strict';
 
-const { CoreApi } = require('../lib/core');
+const { CoreApi } = require('../lib/CoreApi');
 const { expect } = require('chai');
 
 describe('CoreApi', () => {
