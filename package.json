@@ -12,7 +12,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha --recursive test",
+    "test": "mocha --recursive ./**/*.test.js",
+    "test:integ": "mocha --recursive test/**/*.spec.js",
     "docs": "eslint . && rm -rf docs && jsdoc -c ./jsdoc.json",
     "preversion": "npm run lint && npm test && npm run docs && travis lint",
     "postversion": "git push && git push --tags"
