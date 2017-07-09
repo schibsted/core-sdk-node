@@ -27,6 +27,7 @@
     "eslint": "^3.19.0",
     "eslint-config-schibsted": "^3.1.0",
     "eslint-plugin-import": "^2.2.0",
+    "express": "^4.15.3",
     "jsdoc": "^3.4.3",
     "mocha": "^3.3.0"
   },

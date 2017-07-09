@@ -3,6 +3,9 @@ env:
     node: true
     mocha: true
 rules:
+    indent:
+      - warn
+      - 4
     no-undefined: off
     no-var: off
     no-unused-vars:
