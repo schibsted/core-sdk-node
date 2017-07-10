@@ -20,7 +20,10 @@
   },
   "dependencies": {
     "base-64": "^0.1.0",
+    "browser-cookies": "^1.1.0",
     "debug": "^2.6.3",
+    "eventemitter3": "^2.0.3",
+    "fetch-jsonp": "^1.1.1",
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
