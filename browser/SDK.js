@@ -5,7 +5,7 @@ const jsonpFetch = require('fetch-jsonp');
 const { version } = require('../package.json');
 const { openPopup, keepPopupFocused } = require('./popup');
 const SDKError = require('../lib/SDKError');
-const { Uri } = require('../lib/uri');
+const { Uri } = require('../lib/Uri');
 const persistence = require('./persistence');
 
 class SDK {
