@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug tests",
+            "type": "node",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
+            "args": [
+                "--recursive",
+                "./**/*.test.js"
+            ]
+        },
+        {
+            "name": "Launch Build",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/build.js"
+        }
+    ]
+}
