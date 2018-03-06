@@ -6,6 +6,7 @@
 [![Downloads](https://img.shields.io/npm/dm/schibsted-core-sdk-node.svg?style=flat-square)](http://npm-stat.com/charts.html?package=schibsted-core-sdk-node&from=2017-01-01)
 [![MIT License](https://img.shields.io/npm/l/schibsted-core-sdk-node.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
+# DEPRECATED / OBSOLETE / DO NOT USE / NOT IN USE / ARCHIVED
 
 **NOTE: this is very alpha at the moment and hasn't been tested thoroguly. Use at your own risk.**
 
